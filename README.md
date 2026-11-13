@@ -43,7 +43,7 @@
 *Ranked by impact.*
 
 ### [ShowBrand](https://github.com/woosik-study/ShowBrand-Product) &nbsp;`AI` `Security`
-**Found a model that stayed confident while it got 17 points less accurate.** I built an evaluation pipeline that ran 4 controlled experiments over 136 product images (occlusion, noise, low resolution, manipulation). Accuracy fell 17 percentage points and confidence moved 0.7. Any system gating on that confidence score would never know. Presented at MURALS 2026 and selected for the UCSD Undergraduate Research Hub Student Spotlight.
+**Found a model that stayed confident while it got 17 points less accurate.** I stress-tested a vision LLM against blur, logo occlusion and AI fakes in 4 controlled experiments on 136 images. With logos occluded, brand accuracy fell 17 points while confidence fell only 0.7, so any system gating on that score would never know. I shipped the findings into the app as confidence thresholds, a low-confidence retake prompt and risk-based wording. Presented at MURALS 2026 and selected for the UCSD Undergraduate Research Hub Student Spotlight.
 
 *Python · PyTorch · OpenCV · CLIP · MobileNet · Next.js · Claude API*
 
@@ -61,7 +61,7 @@
 <br>
 
 ### [WatchTower](https://github.com/cse110-sp26-group09/Watchtower-Course-Project) &nbsp;`Full-stack` `Security`
-**Found and fixed a stored XSS in the dashboard's HTML escaping.** On a team of 11 in CSE 110, I worked as backend and QA engineer on a self-hosted monitoring platform. Its browser SDK sends errors, performance data and user activity to a Node.js API backed by Supabase, and a Clerk-protected dashboard shows it live.
+**Found and fixed a stored XSS in the dashboard's HTML escaping.** On a team of 11 in CSE 110, I added request validation, 37+ server unit tests and Playwright end-to-end tests in CI to a self-hosted monitoring platform. Its browser SDK sends errors, performance data and user activity to a Node.js API backed by Supabase, and a Clerk-protected dashboard shows it live.
 
 [Live](https://cse110-sp26-group09.github.io/Watchtower-Course-Project) &nbsp;|&nbsp; *JavaScript · Node.js · Supabase · Clerk · Jest · Playwright*
 
