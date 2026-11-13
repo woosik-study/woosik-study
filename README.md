@@ -18,7 +18,7 @@
 </tr>
 <tr>
 <td align="center" valign="top" width="50%"><h3>7 stages</h3><sub>AI red team lifecycle presented to the LG Uplus CTO</sub></td>
-<td align="center" valign="top" width="50%"><h3>33 → 1</h3><sub>unvalidated env vars replaced by one fail-fast module at Match'a</sub></td>
+<td align="center" valign="top" width="50%"><h3>340+</h3><sub>tests gating every merge in the Match'a CI pipeline</sub></td>
 </tr>
 </table>
 
@@ -28,7 +28,7 @@
 
 ## About
 
-**Technical Lead Intern, Match'a** (since Jun 2026) · I own the platform's architecture and lead 3 engineering interns. I closed an unauthenticated Twilio webhook, rate limited the LLM routes, added Semgrep and gitleaks to CI, and gate every merge on a 340+ test suite.
+**Software Engineer, Match'a** (since Jun 2026) · I lead 3 software engineers building a mobile and web social app with a privacy-preserving face avatar. I built the CI pipeline that gates every merge on a 340+ test suite, hardened security with Twilio webhook checks, LLM rate limits and Semgrep and gitleaks scans, and instrumented Sentry across 80+ API routes.
 
 **AI Red Team Intern, LG Uplus** (Jun to Jul 2026) · In the Information Security Center of one of South Korea's three major telecom carriers, I architected a 7-stage AI red team lifecycle for finding unregistered AI assets and securing what they expose, with discovery across 5 detectors and a 19-scenario attack taxonomy mapped to MITRE ATLAS and the OWASP LLM Top 10. AVS, a CVSS-based risk score I designed, makes findings comparable across the org.
 
@@ -43,9 +43,9 @@
 *Ranked by impact.*
 
 ### [ShowBrand](https://github.com/woosik-study/ShowBrand-Product) &nbsp;`AI` `Security`
-**Found a model that stayed confident while it got 17 points less accurate.** I stress-tested a vision LLM against blur, logo occlusion and AI fakes in 4 controlled experiments on 136 images. With logos occluded, brand accuracy fell 17 points while confidence fell only 0.7, so any system gating on that score would never know. I shipped the findings into the app as confidence thresholds, a low-confidence retake prompt and risk-based wording. Presented at MURALS 2026 and selected for the UCSD Undergraduate Research Hub Student Spotlight.
+**Found a model that stayed confident while it got 17 points less accurate.** I originated the project and ran 4 controlled experiments (baseline, blur, logo occlusion, AI manipulation) on 136 images, using a Next.js app on Claude vision and a Python harness (pandas, Pillow). With logos occluded, brand accuracy fell 17 points while confidence fell only 0.7, so any system gating on that score would never know. I shipped the findings into the app as confidence thresholds, a low-confidence retake prompt and risk-based wording. Presented at MURALS 2026 and selected for the UCSD Undergraduate Research Hub Student Spotlight.
 
-*Python · PyTorch · OpenCV · CLIP · MobileNet · Next.js · Claude API*
+*Python · pandas · Pillow · Next.js · Claude API*
 
 <a href="https://github.com/woosik-study/ShowBrand-Product"><img src="media/showbrand.webp" alt="Bar chart: accuracy fell 17 percentage points under adversarial inputs while confidence moved 0.7" width="100%" /></a>
 
@@ -90,7 +90,7 @@
 
 <br>
 
-**Youngduk Electronics (2017 to 2020).** At an electronic components distributor in Korea, I built the automated inventory tracking system the company ran on, cutting stock discrepancies by 30%, and integrated live exchange rates into the ERP for 20% better financial accuracy.
+**Youngduk Electronics (2017 to 2020).** At an electronic components distributor in Korea, I built the internal logistics and inventory management program, automated inventory tracking and ERP reporting through it (30% fewer stock errors, 20% better data accuracy), and maintained it for 3 years.
 
 **Republic of Korea Army (2020 to 2022).** Basic training team leader for 36 recruits.
 
@@ -106,7 +106,7 @@
 |:--|:--|
 | **Languages** | <img src="https://skillicons.dev/icons?i=py,ts,js,c,cpp,java,bash" alt="Python, TypeScript, JavaScript, C, C++, Java, Bash" height="40" /><br><sub>Python · TypeScript · JavaScript · C · C++ · Java · SQL · ARM assembly · Bash</sub> |
 | **Security** | <sub>MITRE ATLAS · OWASP Top 10 / LLM Top 10 · Semgrep · gitleaks · Garak · PyRIT · Threat modeling · Webhook signature validation · Rate limiting</sub> |
-| **AI & ML** | <img src="https://skillicons.dev/icons?i=pytorch,opencv,gcp" alt="PyTorch, OpenCV, Google Cloud" height="40" /><br><sub>PyTorch · OpenCV · CLIP · MobileNet · Claude API · Vertex AI · Gemini</sub> |
+| **AI & ML** | <sub>Claude API · Vertex AI / Gemini · Vision language models · Structured output · LLM evaluation · pandas · Pillow</sub> |
 | **Web & Backend** | <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,supabase,postgres" alt="React, Next.js, Node.js, Supabase, Postgres" height="40" /><br><sub>React · Next.js · Node.js · Supabase · Postgres · Clerk · zod</sub> |
 | **Tools** | <img src="https://skillicons.dev/icons?i=git,githubactions,linux,vercel" alt="Git, GitHub Actions, Linux, Vercel" height="40" /><br><sub>Git · GitHub Actions · Playwright · Jest · Vitest · Sentry · PostHog · Linear · Linux</sub> |
 
