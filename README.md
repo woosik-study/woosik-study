@@ -7,6 +7,7 @@
 [![Website](https://img.shields.io/badge/Website-woosik--study.github.io-1D4ED8?style=flat-square&logo=safari&logoColor=white)](https://woosik-study.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Woosik%20Kim-1D4ED8?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/woosikkim-ucsd)
 [![Email](https://img.shields.io/badge/Email-Say%20hello-1D4ED8?style=flat-square&logo=gmail&logoColor=white)](mailto:wok017@ucsd.edu)
+[![Resume](https://img.shields.io/badge/Resume-PDF-1D4ED8?style=flat-square&logo=files&logoColor=white)](https://woosik-study.github.io/Woosik_Kim_Resume.pdf)
 
 <br>
 
@@ -16,7 +17,7 @@
 <td align="center" valign="top" width="50%"><h3>2nd</h3><sub>AI in Healthcare track, Solix Empower Hackathon 2026</sub></td>
 </tr>
 <tr>
-<td align="center" valign="top" width="50%"><h3>4 stages</h3><sub>AI red team process presented to the LG Uplus CTO</sub></td>
+<td align="center" valign="top" width="50%"><h3>7 stages</h3><sub>AI red team lifecycle presented to the LG Uplus CTO</sub></td>
 <td align="center" valign="top" width="50%"><h3>33 → 1</h3><sub>unvalidated env vars replaced by one fail-fast module at Match'a</sub></td>
 </tr>
 </table>
@@ -27,13 +28,13 @@
 
 ## About
 
-**Technical Lead Intern, Match'a** (since Jun 2026) · I own the platform's architecture and lead 3 engineering interns. I closed an unauthenticated Twilio webhook, scrubbed PII out of Sentry error reports and rate limited the LLM endpoints before launch.
+**Technical Lead Intern, Match'a** (since Jun 2026) · I own the platform's architecture and lead 3 engineering interns. I closed an unauthenticated Twilio webhook, rate limited the LLM routes, added Semgrep and gitleaks to CI, and gate every merge on a 340+ test suite.
 
-**AI Red Team Intern, LG Uplus** (Jun to Jul 2026) · In the Information Security Center of one of South Korea's three major telecom carriers, I designed a 4-stage process for finding unregistered AI assets and managing what they expose. Attacks map to MITRE ATLAS and the OWASP LLM Top 10, and AVS, a severity score I designed, makes findings comparable across the org.
+**AI Red Team Intern, LG Uplus** (Jun to Jul 2026) · In the Information Security Center of one of South Korea's three major telecom carriers, I architected a 7-stage AI red team lifecycle for finding unregistered AI assets and securing what they expose, with discovery across 5 detectors and a 19-scenario attack taxonomy mapped to MITRE ATLAS and the OWASP LLM Top 10. AVS, a CVSS-based risk score I designed, makes findings comparable across the org.
 
-**UC San Diego** · B.S. in Computer Science, graduating August 2027. Faculty Mentor Program researcher with Prof. Pengtao Xie (ECE). Based in San Diego.
+**UC San Diego** · B.S. in Computer Science, graduating December 2027. Faculty Mentor Program researcher with Prof. Pengtao Xie (ECE). Based in San Diego.
 
-**Looking for** · Security Engineering and AI Security internships for Summer 2027 and full-time roles starting August 2027.
+**Looking for** · Security Engineering and AI Security internships for Summer 2027.
 
 <br>
 
@@ -51,7 +52,7 @@
 <br>
 
 ### [Coverage Keeper](https://github.com/AdityaJadhav17/coverage-keeper) &nbsp;`AI` `Full-stack`
-**Placed 2nd in the AI in Healthcare track with a team of 3.** Photograph a Medicaid letter and see what it asks for, when it is due and who to call. I built the letter reader backend with upload validation and structured output, the guardrail that blocks any eligibility verdict, the labeled eval set, and multi-page support for photos and PDFs. It reads the deadline right on 24 of 24 test letters.
+**Placed 2nd in the AI in Healthcare track with a team of 3.** Photograph a Medicaid letter and see what it asks for, when it is due and who to call. I built the letter reader backend with schema-validated output and retries, health data protections and guardrails on every output field, a 13-notice labeled eval set, and multi-page support for photos and PDFs. It read 4 of 4 held-out deadlines correctly.
 
 [Live app](https://coverage-keeper.vercel.app) &nbsp;|&nbsp; *Next.js · TypeScript · Claude API · Vitest · Playwright*
 
@@ -104,7 +105,7 @@
 | Area | Tools |
 |:--|:--|
 | **Languages** | <img src="https://skillicons.dev/icons?i=py,ts,js,c,cpp,java,bash" alt="Python, TypeScript, JavaScript, C, C++, Java, Bash" height="40" /><br><sub>Python · TypeScript · JavaScript · C · C++ · Java · SQL · ARM assembly · Bash</sub> |
-| **Security** | <sub>MITRE ATLAS · OWASP LLM Top 10 · Garak · PyRIT · Threat modeling · Webhook signature validation · Rate limiting · PII scrubbing</sub> |
+| **Security** | <sub>MITRE ATLAS · OWASP Top 10 / LLM Top 10 · Semgrep · gitleaks · Garak · PyRIT · Threat modeling · Webhook signature validation · Rate limiting</sub> |
 | **AI & ML** | <img src="https://skillicons.dev/icons?i=pytorch,opencv,gcp" alt="PyTorch, OpenCV, Google Cloud" height="40" /><br><sub>PyTorch · OpenCV · CLIP · MobileNet · Claude API · Vertex AI · Gemini</sub> |
 | **Web & Backend** | <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,supabase,postgres" alt="React, Next.js, Node.js, Supabase, Postgres" height="40" /><br><sub>React · Next.js · Node.js · Supabase · Postgres · Clerk · zod</sub> |
 | **Tools** | <img src="https://skillicons.dev/icons?i=git,githubactions,linux,vercel" alt="Git, GitHub Actions, Linux, Vercel" height="40" /><br><sub>Git · GitHub Actions · Playwright · Jest · Vitest · Sentry · PostHog · Linear · Linux</sub> |
