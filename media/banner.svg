@@ -1,0 +1,6 @@
+<svg width="854" height="170" viewBox="0 0 854 170" xmlns="http://www.w3.org/2000/svg">
+  <style>.t{font-size:76px;font-weight:700;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}</style>
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0D1117"/><stop offset="100%" stop-color="#1D4ED8"/></linearGradient></defs>
+  <path d="M0 0 L0 150 Q213.5 170 427 150 T854 145 L854 0 Z" fill="url(#g)"/>
+  <text text-anchor="middle" dominant-baseline="middle" x="50%" y="44%" class="t" fill="#ffffff">Woosik Kim</text>
+</svg>
