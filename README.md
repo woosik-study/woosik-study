@@ -28,11 +28,11 @@
 
 ## About
 
-**Software Engineer, Match'a** (since Jun 2026) · I lead 3 software engineers building a mobile and web social app with a privacy-preserving face avatar. I built the CI pipeline that gates every merge on a 340+ test suite, hardened security with Twilio webhook checks, LLM rate limits and Semgrep and gitleaks scans, and instrumented Sentry across 80+ API routes.
+**Software Engineer, Match'a** (Jun to Nov 2026) · I led 3 software engineers building a mobile and web social app with a privacy-preserving face avatar. I built the CI pipeline that gates every merge on a 340+ test suite, secured the app with Twilio webhook verification, LLM rate limits and fail-fast secret validation, added Semgrep and gitleaks scans to CI, and instrumented Sentry across 80+ API routes.
 
 **AI Red Team Intern, LG Uplus** (Jun to Jul 2026) · In the Information Security Center of one of South Korea's three major telecom carriers, I architected a 7-stage AI red team lifecycle for finding unregistered AI assets and securing what they expose, with discovery across 5 detectors and a 19-scenario attack taxonomy mapped to MITRE ATLAS and the OWASP LLM Top 10. AVS, a CVSS-based risk score I designed, makes findings comparable across the org.
 
-**UC San Diego** · B.S. in Computer Science, graduating December 2027. Faculty Mentor Program researcher with Prof. Pengtao Xie (ECE). Based in San Diego.
+**UC San Diego** · B.S. in Computer Science, graduating December 2027. Faculty Mentor Program researcher with Prof. Pengtao Xie (ECE). Transferred from El Camino College with three associate degrees with honors. Based in San Diego.
 
 **Looking for** · Security Engineering and AI Security internships for Summer 2027.
 
@@ -43,7 +43,7 @@
 *Ranked by impact.*
 
 ### [ShowBrand](https://github.com/woosik-study/ShowBrand-Product) &nbsp;`AI` `Security`
-**Found a model that stayed confident while it got 17 points less accurate.** I originated the project and ran 4 controlled experiments (baseline, blur, logo occlusion, AI manipulation) on 136 images, using a Next.js app on Claude vision and a Python harness (pandas, Pillow). With logos occluded, brand accuracy fell 17 points while confidence fell only 0.7, so any system gating on that score would never know. I shipped the findings into the app as confidence thresholds, a low-confidence retake prompt and risk-based wording. Presented at MURALS 2026 and selected for the UCSD Undergraduate Research Hub Student Spotlight.
+**Found a model that stayed confident while it got 17 points less accurate.** I stress-tested a vision LLM against blur, logo occlusion and AI fakes in 4 controlled experiments on 136 images, using a Next.js app on Claude vision and a Python harness (pandas, Pillow). With logos occluded, brand accuracy fell 17 points while confidence fell only 0.7, so any system gating on that score would never know. I shipped the findings into the app as confidence thresholds, a low-confidence retake prompt and risk-based wording. Presented at MURALS 2026 and selected for the UCSD Undergraduate Research Hub Student Spotlight.
 
 *Python · pandas · Pillow · Next.js · Claude API*
 
@@ -90,9 +90,9 @@
 
 <br>
 
-**Youngduk Electronics (2017 to 2020).** At an electronic components distributor in Korea, I built the internal logistics and inventory management program, automated inventory tracking and ERP reporting through it (30% fewer stock errors, 20% better data accuracy), and maintained it for 3 years.
+**Youngduk Electronics (2016 to 2019).** At an electronic components distributor in Korea, I built the internal logistics and inventory management program, automated inventory tracking and ERP reporting through it (30% fewer stock errors, 20% better data accuracy), and maintained it for 3 years.
 
-**Republic of Korea Army (2020 to 2022).** Basic training team leader for 36 recruits.
+**Mandatory national service, Republic of Korea (2019 to 2021).** Selected as trainee platoon leader during basic training for a platoon of 36.
 
 **Triton Engineering Student Council.** Web developer on the tech team (React, TypeScript, Vite, Tailwind).
 
